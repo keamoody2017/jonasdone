@@ -1,0 +1,479 @@
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#scene {
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    background-color: orange;
+}
+
+button {
+    min-width: 120px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.4em;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Futura', sans-serif;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+button.share_button {
+    top: 20%;
+    left: 64%;
+    background: url(img/privat1.svg);
+    background-repeat: no-repeat;
+}
+
+button.no_share_button {
+    top: 50%;
+    left: 64%;
+    background: url(img/snak1.svg);
+    background-repeat: no-repeat;
+}
+
+#jonas_container {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+
+#jonas_sprite {
+    background-image: url("img/jonas_final_1.svg");
+    background-size: 800%;
+    width: 20vw;
+    height: 40vw;
+}
+
+.jonasthink {
+    animation-name: jonasthink_kf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(7);
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+
+@keyframes jonasthink_kf {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: -700%;
+    }
+}
+
+
+.jonasstart {
+    animation-name: jonasstart_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-timing-function: steps(1);
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+
+@keyframes jonasstart_kf {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: -100%;
+    }
+}
+
+#jonassad_container {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    display: none;
+}
+
+
+#jonassad_sprite {
+    background-image: url("img/ked_sprite.svg");
+    background-size: 200%;
+    width: 22vw;
+    height: 40vw;
+}
+
+.jonassad {
+    animation-name: jonasstart_kf;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(1);
+    animation-fill-mode: both;
+}
+
+@keyframes jonassad_kf {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: -100%;
+    }
+}
+
+#nude_container {
+    position: absolute;
+    left: 55%;
+    top: 35%;
+}
+
+#nude_sprite {
+    background-image: url("img/nude.svg");
+    background-size: 100%;
+    width: 4vw;
+    height: 7vw;
+    display: none;
+    background-repeat: no-repeat;
+}
+
+.nude {
+    animation-name: nude_kf;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+@keyframes nude_kf {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(3deg);
+    }
+}
+
+#jubel_container {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: none;
+}
+
+#jubel_sprite {
+    background-image: url(img/jubel.svg);
+    background-size: 200%;
+    height: 56vw;
+    width: 100vw;
+
+}
+
+.jubel {
+    animation-name: jubel_kf;
+    animation-duration: 0.5s;
+    animation-iteration-count: 20;
+    animation-fill-mode: both;
+    animation-timing-function: steps(2);
+
+}
+
+@keyframes jubel_kf {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: -200%;
+    }
+}
+
+#share_container {
+    position: absolute;
+    left: 32.5%;
+    top: 20%;
+    display: none;
+    z-index: 10;
+}
+
+#share_sprite {
+    background-image: url(img/grlsad.svg);
+    background-size: 2100%;
+    height: 31vw;
+    width: 37.5vw;
+}
+
+.share_test {
+    animation-name: sharetest_kf;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-timing-function: steps(21);
+    animation-fill-mode: both;
+}
+
+@keyframes sharetest_kf {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: -2100%;
+    }
+}
+
+
+#mobil_container {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: none;
+    z-index: 5;
+}
+
+#mobil_sprite {
+    background-image: url(img/mobilsprite.svg);
+    background-size: 600%;
+    height: 50vw;
+    width: 100vw;
+}
+
+.mobil_anim {
+    animation-name: mobil_anim_kf;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(5);
+    animation-fill-mode: forwards;
+}
+
+@keyframes mobil_anim_kf {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: -500%;
+    }
+}
+
+#prison_container {
+    position: absolute;
+    left: 25%;
+    top: -20%;
+    animation-duration: 2s;
+    display: none;
+
+}
+
+#prison_sprite {
+    background-image: url(img/prison.svg);
+    background-size: 100%;
+    height: 50vw;
+    width: 50vw;
+    background-repeat: no-repeat;
+}
+
+.prison_rotate {
+    animation-name: prison_rotate_kf;
+    animation-duration: 0.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes prison_rotate_kf {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(4deg);
+    }
+}
+
+.prison_fall {
+    animation-name: prison_fall_kf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes prison_fall_kf {
+    0% {
+        left: 25%;
+        top: -20%;
+    }
+    100% {
+        left: 25%;
+        top: 15%;
+    }
+}
+
+#privat_container {
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    display: none;
+}
+
+#privat_sprite {
+    background-image: url(img/privat.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50vw;
+    height: 25vw;
+}
+
+.privat_logo {
+    animation-name: privat_kf;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+
+@keyframes privat_kf {
+    from {
+        left: 40%;
+        top: 20%;
+    }
+    to {
+        left: 40%;
+        top: 5%;
+    }
+}
+
+#snak_container {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    display: none;
+}
+
+#snak_sprite {
+    background-image: url(img/snak.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50vw;
+    height: 25vw;
+}
+
+.snak_logo {
+    animation-name: snak_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+
+@keyframes snak_kf {
+    from {
+        left: 40%;
+        top: 20%;
+    }
+    to {
+        left: 50%;
+        top: 40%;
+    }
+}
+
+#anonym_container {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    display: none;
+}
+
+#anonym_sprite {
+    background-image: url(img/anonym.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 25vw;
+    height: 25vw;
+}
+
+.anonym_animation {
+    animation-name: anonym_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+
+@keyframes anonym_kf {
+    from {
+        left: 10%;
+        top: 10%;
+    }
+    to {
+        left: 40%;
+        top: 40%;
+    }
+}
+
+#think_container {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+
+#think_sprite {
+    background-image: url(img/think.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 25vw;
+    height: 25vw;
+
+}
+
+.think_animation {
+    animation-name: think_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+
+@keyframes think_kf {
+    from {
+        left: 10%;
+        top: 25%;
+    }
+    to {
+        left: 10%;
+        top: 35%;
+    }
+}
+
+
+#link_container {
+    position: absolute;
+    left: 30%;
+    top: 80%;
+    display: none;
+
+}
+
+#link_sprite {
+    background-image: url(img/link.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    height: 10vw;
+}
+
+.link_animation {
+    animation-name: link_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+
+@keyframes link_kf {
+    from {
+        left: 30%;
+        top: 80%;
+    }
+    to {
+        left: 30%;
+        top: 20%;
+    }
+}

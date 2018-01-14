@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.26 97.99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1f2532;
+      }
+    </style>
+  </defs>
+  <title>privat1</title>
+  <g>
+    <path class="cls-1" d="M180.71,87.23H18.93c-8.38,0-15.24-5.8-15.24-12.89V16.28c0-7.09,6.86-12.89,15.24-12.89H180.71c8.38,0,15.24,5.8,15.24,12.89V74.34C196,81.43,189.09,87.23,180.71,87.23Z" transform="translate(-3.69 -3.39)"/>
+    <polygon class="cls-1" points="22.81 97.99 45.35 83.84 28.99 83.84 22.81 97.99"/>
+  </g>
+</svg>

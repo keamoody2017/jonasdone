@@ -1,0 +1,26 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff9207;
+      }
+
+      .cls-2 {
+        font-size: 47.32px;
+        fill: #f9f9f9;
+        font-family: Futura-Bold, Futura;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <title>snak</title>
+  <g>
+    <path class="cls-1" d="M174.07,81.56H22.62c-7.85,0-14.27-5.4-14.27-12v-54c0-6.6,6.42-12,14.27-12H174.07c7.85,0,14.27,5.4,14.27,12v54C188.33,76.16,181.91,81.56,174.07,81.56Z"/>
+    <polygon class="cls-1" points="26.14 96.48 49.92 81.56 32.67 81.56 26.14 96.48"/>
+    <text class="cls-2" transform="translate(23.74 61.67)">S<tspan class="cls-3" x="30.57" y="0">N</tspan><tspan x="73.78" y="0">AK</tspan></text>
+  </g>
+</svg>

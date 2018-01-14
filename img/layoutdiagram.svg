@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 743 1000" style="enable-background:new 0 0 743 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#006837;}
+	.st2{fill:none;}
+	.st3{font-family:'Futura-CondensedMedium';}
+	.st4{font-size:40px;}
+	.st5{fill:#0071BC;}
+	.st6{font-size:19.029px;}
+	.st7{fill:#FF00FF;}
+</style>
+<g>
+	<rect x="29" y="27" class="st0" width="667" height="911"/>
+	<path class="st1" d="M691,32v901H34V32H691 M701,22H24v921h677V22L701,22z"/>
+</g>
+<rect x="62.5" y="38.9" class="st2" width="275.5" height="34.1"/>
+<text transform="matrix(1 0 0 1 62.5386 72.0923)" class="st3 st4">div = ”Scene”</text>
+<g>
+	<rect x="80" y="131" class="st0" width="239.8" height="108"/>
+	<path class="st5" d="M314.8,136v98H85v-98H314.8 M324.8,126H75v118h249.8V126L324.8,126z"/>
+</g>
+<g>
+	<rect x="93.3" y="167.7" class="st0" width="162.3" height="58"/>
+	<path class="st5" d="M250.6,172.7v48H98.3v-48H250.6 M260.6,162.7H88.3v68h172.3V162.7L260.6,162.7z"/>
+</g>
+<rect x="84.3" y="97.9" class="st2" width="131" height="16.2"/>
+<text transform="matrix(1 0 0 1 84.2949 113.6953)" class="st3 st6">div = ”container”</text>
+<rect x="92.4" y="138.8" class="st2" width="131" height="16.2"/>
+<text transform="matrix(1 0 0 1 92.3823 154.6074)" class="st3 st6">div = ”spritesheet”</text>
+<g>
+	<rect x="110.9" y="185.3" class="st7" width="112.3" height="28.1"/>
+	<path class="st7" d="M218.2,190.3v18.1H115.9v-18.1H218.2 M228.2,180.3H105.9v38.1h122.3V180.3L228.2,180.3z"/>
+</g>
+<rect x="117.6" y="188.8" class="st2" width="65.4" height="16.2"/>
+<text transform="matrix(1 0 0 1 117.5957 204.5586)" class="st3 st6">keyframes</text>
+<g>
+	<rect x="89" y="299" class="st0" width="239.8" height="108"/>
+	<path class="st5" d="M323.8,304v98H94v-98H323.8 M333.8,294H84v118h249.8V294L333.8,294z"/>
+</g>
+<g>
+	<rect x="102.3" y="335.7" class="st0" width="162.3" height="58"/>
+	<path class="st5" d="M259.6,340.7v48H107.3v-48H259.6 M269.6,330.7H97.3v68h172.3V330.7L269.6,330.7z"/>
+</g>
+<rect x="93.3" y="265.9" class="st2" width="131" height="16.2"/>
+<text transform="matrix(1 0 0 1 93.2949 281.6953)" class="st3 st6">div = ”container”</text>
+<rect x="101.4" y="306.8" class="st2" width="131" height="16.2"/>
+<text transform="matrix(1 0 0 1 101.3823 322.6074)" class="st3 st6">div = ”spritesheet”</text>
+<g>
+	<rect x="119.9" y="353.3" class="st7" width="112.3" height="28.1"/>
+	<path class="st7" d="M227.2,358.3v18.1H124.9v-18.1H227.2 M237.2,348.3H114.9v38.1h122.3V348.3L237.2,348.3z"/>
+</g>
+<rect x="126.6" y="356.8" class="st2" width="65.4" height="16.2"/>
+<text transform="matrix(1 0 0 1 126.5957 372.5586)" class="st3 st6">keyframes</text>
+<g>
+	<rect x="89" y="460" class="st0" width="239.8" height="108"/>
+	<path class="st5" d="M323.8,465v98H94v-98H323.8 M333.8,455H84v118h249.8V455L333.8,455z"/>
+</g>
+<g>
+	<rect x="102.3" y="496.7" class="st0" width="162.3" height="58"/>
+	<path class="st5" d="M259.6,501.7v48H107.3v-48H259.6 M269.6,491.7H97.3v68h172.3V491.7L269.6,491.7z"/>
+</g>
+<rect x="93.3" y="426.9" class="st2" width="131" height="16.2"/>
+<text transform="matrix(1 0 0 1 93.2949 442.6953)" class="st3 st6">div = ”container”</text>
+<rect x="101.4" y="467.8" class="st2" width="131" height="16.2"/>
+<text transform="matrix(1 0 0 1 101.3823 483.6074)" class="st3 st6">div = ”spritesheet”</text>
+<g>
+	<rect x="119.9" y="514.3" class="st7" width="112.3" height="28.1"/>
+	<path class="st7" d="M227.2,519.3v18.1H124.9v-18.1H227.2 M237.2,509.3H114.9v38.1h122.3V509.3L237.2,509.3z"/>
+</g>
+<rect x="126.6" y="517.8" class="st2" width="65.4" height="16.2"/>
+<text transform="matrix(1 0 0 1 126.5957 533.5586)" class="st3 st6">keyframes</text>
+<g>
+	<rect x="95" y="631" class="st0" width="239.8" height="108"/>
+	<path class="st5" d="M329.8,636v98H100v-98H329.8 M339.8,626H90v118h249.8V626L339.8,626z"/>
+</g>
+<g>
+	<rect x="108.3" y="667.7" class="st0" width="162.3" height="58"/>
+	<path class="st5" d="M265.6,672.7v48H113.3v-48H265.6 M275.6,662.7H103.3v68h172.3V662.7L275.6,662.7z"/>
+</g>
+<rect x="99.3" y="597.9" class="st2" width="131" height="16.2"/>
+<text transform="matrix(1 0 0 1 99.2949 613.6953)" class="st3 st6">div = ”container”</text>
+<rect x="107.4" y="638.8" class="st2" width="131" height="16.2"/>
+<text transform="matrix(1 0 0 1 107.3823 654.6074)" class="st3 st6">div = ”spritesheet”</text>
+<g>
+	<rect x="125.9" y="685.3" class="st7" width="112.3" height="28.1"/>
+	<path class="st7" d="M233.2,690.3v18.1H130.9v-18.1H233.2 M243.2,680.3H120.9v38.1h122.3V680.3L243.2,680.3z"/>
+</g>
+<rect x="132.6" y="688.8" class="st2" width="65.4" height="16.2"/>
+<text transform="matrix(1 0 0 1 132.5957 704.5586)" class="st3 st6">keyframes</text>
+<g>
+	<rect x="104" y="802" class="st0" width="239.8" height="108"/>
+	<path class="st5" d="M338.8,807v98H109v-98H338.8 M348.8,797H99v118h249.8V797L348.8,797z"/>
+</g>
+<g>
+	<rect x="117.3" y="838.7" class="st0" width="162.3" height="58"/>
+	<path class="st5" d="M274.6,843.7v48H122.3v-48H274.6 M284.6,833.7H112.3v68h172.3V833.7L284.6,833.7z"/>
+</g>
+<rect x="108.3" y="768.9" class="st2" width="131" height="16.2"/>
+<text transform="matrix(1 0 0 1 108.2949 784.6953)" class="st3 st6">div = ”container”</text>
+<rect x="116.4" y="809.8" class="st2" width="131" height="16.2"/>
+<text transform="matrix(1 0 0 1 116.3823 825.6074)" class="st3 st6">div = ”spritesheet”</text>
+<g>
+	<rect x="134.9" y="856.3" class="st7" width="112.3" height="28.1"/>
+	<path class="st7" d="M242.2,861.3v18.1H139.9v-18.1H242.2 M252.2,851.3H129.9v38.1h122.3V851.3L252.2,851.3z"/>
+</g>
+<rect x="141.6" y="859.8" class="st2" width="65.4" height="16.2"/>
+<text transform="matrix(1 0 0 1 141.5957 875.5586)" class="st3 st6">keyframes</text>
+</svg>
